@@ -13,6 +13,26 @@
 
 <body>
     <header class="header">
+        <!-- mobile version -->
+        <div class="header-left">
+            <button class="header-menu-btn">
+
+            </button>
+            <a class="logo logo-mobile" href="/index.html">
+                <img width="30" height="23" src="./images/Screen Shot 2023-03-12 at 15.19 1.svg" alt="logo">
+            </a>
+        </div>
+        <div class="header-right">
+            <form class="header-search-form">
+                <input class="header-search-input" type="text">
+                <svg width="19" height="19">
+                    <use href="/images/symbol-defs.svg#icon-search-zoom-out"></use>
+                </svg>
+            </form>
+
+            <img class="header-profile-icon" src="./images/women_profile_icon.png" alt="women headshot">
+        </div>
+        <!-- Desktop version -->
         <a class="logo" href="/index.html">
             <img src="./images/Screen Shot 2023-03-12 at 15.19 1.svg" alt="logo">Schola Vitae
         </a>
@@ -29,6 +49,16 @@
         <button class="btn-signup">Sign up for Free</button>
     </header>
     <main>
+        <section class="hero-mobile">
+            <img class="hero-img" src="/images/hero-img.png" alt="">
+            <h1 class="hero-title">find job without experience</h1>
+            <p class="hero-text">We believe that everyone deserves a chance to succeed in their careers, regardless of
+                their background or experience. </p>
+            <button class="hero-btn">Start make your own Cv</button>
+
+        </section>
+
+        <!--
         <section class="hero">
             <div class="hero-left">
                 <p class="hero-left-text">We believe that everyone deserves a <span>chance <br> to succeed </span> in
@@ -80,55 +110,132 @@
                                     <use href="./images/symbol-defs.svg#icon-document-download"></use>
                                 </svg>
                             </div> -->
-                        </div>
-                    </li>
-                    <li class="hero-right-list-item list-3">
+        <!-- </div>
+        </li>
+        <li class="hero-right-list-item list-3">
 
-                        <img src="./images/man_in_black.png" alt="">
-                        <div class="hero-right-list-item-box">
-                            <div>
-                                <h3 class="hero-right-list-item-title">Cassie Jung</h3>
-                                <p class="hero-right-list-item-text">Sara introduced herself with this video</p>
-                            </div>
-                            <!-- <div>
+            <img src="./images/man_in_black.png" alt="">
+            <div class="hero-right-list-item-box">
+                <div>
+                    <h3 class="hero-right-list-item-title">Cassie Jung</h3>
+                    <p class="hero-right-list-item-text">Sara introduced herself with this video</p>
+                </div> -->
+        <!-- <div>
                                 <svg width="24" height="24">
                                     <use href="./images/symbol-defs.svg#icon-save-remove"></use>
                                 </svg>
                                 <svg width="24" height="24">
                                     <use href="./images/symbol-defs.svg#icon-document-download"></use>
                                 </svg>
-                            </div> -->
+                           </div>
                         </div>
                     </li>
                 </ul>
             </div>
         </section>
+         -->
         <section class="video">
-            <h2>Make your <span> own video</span></h2>
-            <a href="#">See alls</a>
-            <ul>
-                <li class="hero-right-list-item ">
+            <div class="video-title-container">
+                <h2 class="video-title">Make your <span class="video-title-span"> own video</span></h2>
+                <a class="video-title-link" href="#">See all</a>
+            </div>
+            <ul class="video-list">
+                <li class="hero-right-list-item video-list-item">
 
-                    <img src="./images/man_in_black.png" alt="">
+                    <img src="./images/woman_in_black_mobile.png" alt="">
                     <div class="hero-right-list-item-box">
                         <div>
-                            <h3 class="hero-right-list-item-title">Cassie Jung</h3>
+                            <h3 class="video-right-list-item-title">Cassie Jung</h3>
+                        </div>
+                        <div>
+                            <svg width="16" height="16">
+                                <use href="./images/symbol-defs.svg#icon-save-remove"></use>
+                            </svg>
+                            <svg width="16" height="16">
+                                <use href="./images/symbol-defs.svg#icon-document-download"></use>
+                            </svg>
                         </div>
 
                     </div>
                 </li>
-                <li class="hero-right-list-item ">
+                <li class="hero-right-list-item video-list-item">
 
-                    <img src="./images/man_in_black.png" alt="">
-                    <div class="hero-right-list-item-box">
+                    <img src="./images/woman_in_grey_mobile.png" alt="">
+                    <div class="hero-right-list-item-box hero-right-list-item-second-box">
                         <div>
-                            <h3 class="hero-right-list-item-title">Cassie Jung</h3>
+                            <h3 class="video-right-list-item-title">Cassie Jung</h3>
                         </div>
 
                     </div>
                 </li>
 
             </ul>
+        </section>
+
+        <section class="skills">
+            <div class="skills-container">
+                <h2 class="skills-title">Trending <span class="skills-title-span">skills</span> You can learn</h2>
+                <ul class="skills-list">
+                    <li class="skills-list-item">Resume Writer</li>
+                    <li class="skills-list-item">Data Entry Specialists <br></li>
+                    <li class="skills-list-item">Data Entry Specialists</li>
+                    <li class="skills-list-item">Logo Designer</li>
+                    <li class="skills-list-item">Data Analyst <br></li>
+                    <li class="skills-list-item">Copywriter</li>
+                    <li class="skills-list-item">Data Entry Specialists<br></li>
+                    <li class="skills-list-item">Data Entry Specialists</li>
+                    <li class="skills-list-item">Shopify Developer</li>
+                </ul>
+                <h2 class="skills-title">What Career is the <span class="skills-title-span">best for Me</span></h2>
+                <img class="skills-career-img" src="/images/career_img.png" alt="">
+                <button class="skills-career-btn">Start Career Test</button>
+                <h2 class="skills-title">User <span class="skills-title-span">Feedback</span></h2>
+            </div>
+            <ul class="skills-feedback-list">
+                <li class="skills-feedback-list-item">
+                    <div class="skills-feedback-svg-container">
+                        <svg width="34" height="25">
+                            <use href="/images/symbol-defs.svg#icon-quote">
+                            </use>
+                        </svg>
+                    </div>
+                    <div class="skills-feedback-list-top-container">
+                        <img src="/images/woman_feddback_icon.png" alt="">
+                        <div class="skills-feedback-list-top-title-container">
+                            <h2 class="skills-feedback-list-subtitle">Jenny Wilson</h2>
+                            <h3 class="skills-feedback-list-sub-subtitle">UI-UX Designer</h3>
+                        </div>
+                    </div>
+                    <p class="skills-feedback-list-text">Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros
+                        pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa,
+                        hendrerit vestibulum gravida in, feugiat auctor felis.</p>
+                    <p class="skills-feedback-list-text">Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros
+                        pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa,
+                        hendrerit vestibulum gravida in, feugiat auctor felis.</p>
+                </li>
+                <li class="skills-feedback-list-item skills-feedback-second-list-item ">
+                    <div class="skills-feedback-svg-container">
+                        <svg width="34" height="25">
+                            <use href="/images/symbol-defs.svg#icon-quote">
+                            </use>
+                        </svg>
+                    </div>
+                    <div class="skills-feedback-list-top-container">
+                        <img src="/images/woman_feddback_icon.png" alt="">
+                        <div class="skills-feedback-list-top-title-container">
+                            <h2 class="skills-feedback-list-subtitle">Jenny Wilson</h2>
+                            <h3 class="skills-feedback-list-sub-subtitle">UI-UX Designer</h3>
+                        </div>
+                    </div>
+                    <p class="skills-feedback-list-text">Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros
+                        pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa,
+                        hendrerit vestibulum gravida in, feugiat auctor felis.</p>
+                    <p class="skills-feedback-list-text">Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros
+                        pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa,
+                        hendrerit vestibulum gravida in, feugiat auctor felis.</p>
+                </li>
+            </ul>
+
         </section>
     </main>
 </body>

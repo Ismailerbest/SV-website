@@ -1,0 +1,128 @@
+.skills {
+    padding: 57px 0px 59px 0px;
+}
+
+.skills-container {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.skills-title {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    color: $darkGreen;
+
+}
+
+.skills-title-span {
+    color: $brandColor;
+}
+
+.skills-list {
+    margin-top: 20px;
+    width: 359px;
+    margin-bottom: 60px;
+}
+
+.skills-list-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    color: $darkGreen;
+    // margin-right: 12px;
+    display: inline-block;
+    border: 1px solid #F0FAF7;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.skills-list-item:nth-child(1),
+.skills-list-item:nth-child(3),
+.skills-list-item:nth-child(4),
+.skills-list-item:nth-child(6),
+.skills-list-item:nth-child(8) {
+    margin-right: 4px;
+}
+
+.skills-career-img {
+    margin-top: 24px;
+    margin-bottom: 11px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills-career-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    background: $brandColor;
+    border-radius: 8px;
+    min-width: 343px;
+    margin-bottom: 56px;
+}
+
+.skills-feedback-list-item {
+    padding: 24px 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    width: 254px;
+
+}
+
+.skills-feedback-list-top-container {
+    display: flex;
+}
+
+.skills-feedback-list-top-title-container {
+    margin-left: 10px;
+}
+
+.skills-feedback-list {
+    padding-left: 16px;
+    margin-top: 24px;
+}
+
+.skills-feedback-svg-container {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 16px;
+}
+
+.skills-feedback-list-subtitle {
+    margin-bottom: 8px;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.3;
+    color: $darkGreen;
+}
+
+.skills-feedback-list-sub-subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.3;
+    color: $darkGreen;
+
+}
+
+.skills-feedback-list-text {
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.3;
+    color: $darkGreen;
+
+    &:not(:last-child) {
+        margin-bottom: 16px;
+    }
+}

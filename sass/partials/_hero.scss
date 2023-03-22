@@ -1,112 +1,163 @@
-.hero {
-    padding: 119px 80px 173px 80px;
-    display: flex;
-    justify-content: space-between;
+.hero-mobile {
+    padding: 31px 16px 44px 16px;
 }
 
-.hero-left {
-    margin-right: 210px;
-}
-
-.hero-left-text {
-    font-family: Titillium Web;
+.hero-title {
+    margin-top: 11px;
+    margin-bottom: 12px;
+    font-family: 'Titillium Web';
     font-weight: 700;
-    font-size: 32px;
-    line-height: 1.5;
+    font-size: 24px;
+    line-height: 1.33;
     color: $darkGreen;
-
-    & span {
-        color: $brandColor;
-    }
-
-    margin-bottom: 32px;
+    text-align: center;
 }
 
-.hero-right {
-    width: 441px;
-}
-
-.hero-left-smaller-text {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.6;
-    color: $brandColor;
-    margin-bottom: 32px;
-
-}
-
-.hero-search-container {
-    position: relative;
-    width: 503px;
-
-}
-
-.hero-search-container-svg {
-    position: absolute;
-    right: 18px;
-    bottom: 18px;
-    z-index: 1;
-
-}
-
-.hero-search {
-    width: 100%;
-    filter: drop-shadow(-3.10494px -3.10494px 34.1543px rgba(0, 0, 0, 0.08));
-    padding: 16px 18px 18px 18px;
-    border: none;
-    border-radius: 6.20988px;
-}
-
-.hero-right-list-item {
-    width: 413px;
-    border-radius: 12px;
-    box-shadow: 0px 12px 24px rgba(0, 0, 0, .1);
-    overflow: hidden;
-}
-
-.hero-right-list {
-    position: relative;
-    min-height: 393px;
-}
-
-.hero-right-list-item-box {
-    display: flex;
-    padding: 13px 29px 18px 29px;
-    justify-content: space-between;
-    width: 413px;
-    background-color: white;
-    border-radius: 12px;
-    align-items: end;
-}
-
-.hero-right-list-item-title {
-    font-weight: 500;
+.hero-text {
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.5;
-    color: $darkGreen;
+    text-align: center;
+    color: #6F8191;
+    margin-bottom: 12px;
 }
 
-.hero-right-list-item-text {
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 16px;
-    color: $darkGreen;
+.hero-btn {
+    padding: 9px 20px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(18, 17, 39, 0.12);
+    border-radius: 100px;
+    color: #20B486;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
 }
 
-.list-2 {
-    position: absolute;
-    z-index: 3;
-    left: 16px;
-    bottom: 54px;
+.hero-img {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.list-3 {
-    position: absolute;
-    left: 28px;
-    bottom: 68px;
+.hero-text {
+    width: 325px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.list-1 {
-    z-index: 10;
-    position: absolute;
-}
+// Desktop starts
+// .hero {
+//     padding: 119px 80px 173px 80px;
+//     // display: flex; Adding display none so that we can work on mobile verstion
+//     display: none;
+//     justify-content: space-between;
+// }
+
+// .hero-left {
+//     margin-right: 210px;
+// }
+
+// .hero-left-text {
+//     font-family: Titillium Web;
+//     font-weight: 700;
+//     font-size: 32px;
+//     line-height: 1.5;
+//     color: $darkGreen;
+
+//     & span {
+//         color: $brandColor;
+//     }
+
+//     margin-bottom: 32px;
+// }
+
+// .hero-right {
+//     width: 441px;
+// }
+
+// .hero-left-smaller-text {
+//     font-weight: 700;
+//     font-size: 20px;
+//     line-height: 1.6;
+//     color: $brandColor;
+//     margin-bottom: 32px;
+
+// }
+
+// .hero-search-container {
+//     position: relative;
+//     width: 503px;
+
+// }
+
+// .hero-search-container-svg {
+//     position: absolute;
+//     right: 18px;
+//     bottom: 18px;
+//     z-index: 1;
+
+// }
+
+// .hero-search {
+//     width: 100%;
+//     filter: drop-shadow(-3.10494px -3.10494px 34.1543px rgba(0, 0, 0, 0.08));
+//     padding: 16px 18px 18px 18px;
+//     border: none;
+//     border-radius: 6.20988px;
+// }
+
+// .hero-right-list-item {
+//     width: 413px;
+//     border-radius: 12px;
+//     box-shadow: 0px 12px 24px rgba(0, 0, 0, .1);
+//     overflow: hidden;
+// }
+
+// .hero-right-list {
+//     position: relative;
+//     min-height: 393px;
+// }
+
+// .hero-right-list-item-box {
+//     display: flex;
+//     padding: 13px 8px 13px 8px;
+//     justify-content: space-between;
+//     // width: 413px;
+//     background-color: white;
+//     // border-radius: 12px;
+//     align-items: end;
+// }
+
+// .hero-right-list-item-title {
+//     font-weight: 500;
+//     font-size: 14px;
+//     line-height: 1.5;
+//     color: $darkGreen;
+// }
+
+// .hero-right-list-item-text {
+//     font-weight: 500;
+//     font-size: 10px;
+//     line-height: 16px;
+//     color: $darkGreen;
+// }
+
+// .list-2 {
+//     position: absolute;
+//     z-index: 3;
+//     left: 16px;
+//     bottom: 54px;
+// }
+
+// .list-3 {
+//     position: absolute;
+//     left: 28px;
+//     bottom: 68px;
+// }
+
+// .list-1 {
+//     z-index: 10;
+//     position: absolute;
+// }

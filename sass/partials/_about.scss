@@ -1,0 +1,29 @@
+.about_nav {
+    padding: 10px 18px;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.about-nav-span {
+    margin-left: 12px;
+
+}
+
+.about_us {
+    padding: 36px 16px 36px 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-us-text {
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:1.5;
+    color: #6F8191;
+}

@@ -2,3 +2,60 @@
     padding: 26px 0px 36px 16px;
     background: $darkGreen;
 }
+
+.video-list-item {
+    width: 253px;
+
+    &:last-child {
+        margin-left: 16px;
+        width: 90px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px
+    }
+}
+
+.video-title-container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 32px;
+    padding-bottom: 28px;
+}
+
+.video-title {
+    font-family: 'Titillium Web';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+.video-title-span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    color: $brandColor
+}
+
+.video-title-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #FFFFFF;
+
+}
+
+.video-right-list-item-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: $darkGreen
+}
+
+.video-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-right-list-item-second-box {
+    padding-right: 0;
+}
