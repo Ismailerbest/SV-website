@@ -1,0 +1,41 @@
+.team-text {
+    padding: 20px 16px;
+}
+
+.team-green {
+    background-color: #F0FAF7;
+    padding: 24px;
+}
+
+.team-green-wrapper {
+    padding: 32px 16px;
+}
+
+.team-green-title {
+    margin-bottom: 17px;
+    text-align: center;
+}
+
+.team-green svg {
+    display: block;
+    margin: 0 auto;
+}
+
+.people-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.people-wrapper-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #06241B;
+
+    & :not(:last-child) {
+        margin-top: 10px;
+
+    }
+}

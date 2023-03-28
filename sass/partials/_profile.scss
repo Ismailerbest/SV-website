@@ -1,0 +1,159 @@
+.login {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 20px;
+    padding-bottom: 146px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+}
+
+.login-links-container {
+    background-color: #F0FAF7;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 36px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.login-links {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+.signin {
+    color: $darkGreen;
+}
+
+.signup {
+    color: #6F8191;
+}
+
+.login-title {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    color: $darkGreen;
+    margin-bottom: 8px;
+}
+
+.login-label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    color: $darkGreen;
+}
+
+.login-input {
+    display: block;
+    margin-top: 8px;
+    border: 1px solid #06241B;
+    border-radius: 4px;
+    width: 343px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 44px;
+    margin-bottom: 8px;
+}
+
+// .login a {
+//     font-weight: 400;
+//     font-size: 12px;
+//     line-height: 1.3;
+//     text-align: right;
+//     color: $darkGreen;
+// }
+
+.login-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: #06241B;
+    border-radius: 4px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+
+.login-forgot {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.3;
+    display: flex;
+    justify-content: end;
+    color: $darkGreen;
+    text-align: end;
+    margin-bottom: 8px;
+}
+
+.house-icon {
+    margin-right: 8px;
+
+}
+
+.terms_and_contact {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.terms_and_contact_link {
+    margin-right: 12px;
+}
+
+.terms_and_contact_span {
+    text-align: center;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.terms_and_contact_btn_container {
+
+    display: flex;
+}
+
+.terms_and_contact_btn_left {
+    margin-right: 12px;
+}
+
+.terms_and_contact_btn {
+    background-color: #FFFFFF;
+    border: 1px solid $darkGreen;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-width: 165px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.terms_and_contact_text_and_img {
+    display: flex;
+    align-items: center;
+}
+
+.terms_and_contact_text_and_img_span {
+    margin-right: 4px;
+}
+
+.account_signup {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    color: $darkGreen;
+    text-align: center;
+}
+
+.account_signup_span {
+    color: $brandColor;
+}

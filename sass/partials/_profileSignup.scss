@@ -1,0 +1,76 @@
+.join_as_section {
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 240px;
+}
+
+.join_as_client_span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    color: $darkGreen;
+}
+
+.client-signup {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+}
+
+.join_as_container-label {
+    margin-top: 12px;
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    color: $darkGreen;
+
+}
+
+.join_as_container {
+    position: relative;
+    padding: 16px 15px;
+    background-color: #FFFFFF;
+    border: 1px solid $brandColor;
+    border-radius: 4px;
+    margin-bottom: 36px;
+}
+
+
+
+.join_as_top {
+    margin-bottom: 12px;
+}
+
+.client-signup {
+    display: none;
+}
+
+.join_as_container-label::before {
+    content: "";
+    display: block;
+    background-image: url("/images/radioButton.svg");
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 16px;
+    right: 15px;
+
+}
+
+.client-signup:checked+.join_as_container-label {
+    background-color: green;
+}
+
+.client-signup:checked+.join_as_container-label::before {
+    background-image: url("/images/checked-RadioButton.png");
+}
+
+// .join_as_container-label-div {
+//     position: absolute;
+//     width: 343px;
+//     height: 92px;
+//     background-color: #F0FAF7;
+//     top: 0;
+//     left: 0
+// }

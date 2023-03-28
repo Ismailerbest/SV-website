@@ -1,0 +1,36 @@
+.heiglights {
+    background-color: #F0FAF7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.heiglights-span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6F8191;
+
+}
+
+.heiglights-container {
+    position: relative;
+}
+
+.heiglights-span {
+    position: absolute;
+    z-index: 10;
+    top: 75px;
+    left: 25px;
+}
+
+.heiglights-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #06241B;
+    margin-top: 20px;
+
+}

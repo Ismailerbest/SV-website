@@ -334,4 +334,386 @@ button {
 }
 .about-us-text:not(:last-child) {
   margin-bottom: 20px;
+}
+
+.heiglights {
+  background-color: #F0FAF7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 15px;
+}
+
+.heiglights-span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #6F8191;
+}
+
+.heiglights-container {
+  position: relative;
+}
+
+.heiglights-span {
+  position: absolute;
+  z-index: 10;
+  top: 75px;
+  left: 25px;
+}
+
+.heiglights-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #06241B;
+  margin-top: 20px;
+}
+
+.team-text {
+  padding: 20px 16px;
+}
+
+.team-green {
+  background-color: #F0FAF7;
+  padding: 24px;
+}
+
+.team-green-wrapper {
+  padding: 32px 16px;
+}
+
+.team-green-title {
+  margin-bottom: 17px;
+  text-align: center;
+}
+
+.team-green svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.people-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.people-wrapper-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #06241B;
+}
+.people-wrapper-title :not(:last-child) {
+  margin-top: 10px;
+}
+
+.contact {
+  padding: 12px 16px 90px 16px;
+}
+
+.contact-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+
+.contact-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  color: #20B486;
+  margin-bottom: 12px;
+}
+
+.contact-label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #06241B;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+.contact-input {
+  width: 100%;
+  height: 39.49px;
+  border: 0.8975px solid #6F8191;
+  border-radius: 3.59px;
+  padding: 10px 20px;
+}
+
+.contact-textarea {
+  width: 100%;
+  height: 140.01px;
+  border: 0.8975px solid #6F8191;
+  border-radius: 3.59px;
+  resize: none;
+  padding: 10px 20px;
+}
+
+.login {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 20px;
+  padding-bottom: 146px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 375px;
+}
+
+.login-links-container {
+  background-color: #F0FAF7;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 36px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.login-links {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.signin {
+  color: #06241B;
+}
+
+.signup {
+  color: #6F8191;
+}
+
+.login-title {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #06241B;
+  margin-bottom: 8px;
+}
+
+.login-label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #06241B;
+}
+
+.login-input {
+  display: block;
+  margin-top: 8px;
+  border: 1px solid #06241B;
+  border-radius: 4px;
+  width: 343px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 44px;
+  margin-bottom: 8px;
+}
+
+.login-btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  background-color: #06241B;
+  border-radius: 4px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.login-forgot {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.3;
+  display: flex;
+  justify-content: end;
+  color: #06241B;
+  text-align: end;
+  margin-bottom: 8px;
+}
+
+.house-icon {
+  margin-right: 8px;
+}
+
+.terms_and_contact {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.terms_and_contact_link {
+  margin-right: 12px;
+}
+
+.terms_and_contact_span {
+  text-align: center;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.terms_and_contact_btn_container {
+  display: flex;
+}
+
+.terms_and_contact_btn_left {
+  margin-right: 12px;
+}
+
+.terms_and_contact_btn {
+  background-color: #FFFFFF;
+  border: 1px solid #06241B;
+  border-radius: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-width: 165px;
+  display: flex;
+  justify-content: center;
+}
+
+.terms_and_contact_text_and_img {
+  display: flex;
+  align-items: center;
+}
+
+.terms_and_contact_text_and_img_span {
+  margin-right: 4px;
+}
+
+.account_signup {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  color: #06241B;
+  text-align: center;
+}
+
+.account_signup_span {
+  color: #20B486;
+}
+
+.join_as_section {
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 240px;
+}
+
+.join_as_client_span {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #06241B;
+}
+
+.client-signup {
+  position: absolute;
+  top: 16px;
+  right: 15px;
+}
+
+.join_as_container-label {
+  margin-top: 12px;
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #06241B;
+}
+
+.join_as_container {
+  position: relative;
+  padding: 16px 15px;
+  background-color: #FFFFFF;
+  border: 1px solid #20B486;
+  border-radius: 4px;
+  margin-bottom: 36px;
+}
+
+.join_as_top {
+  margin-bottom: 12px;
+}
+
+.client-signup {
+  display: none;
+}
+
+.join_as_container-label::before {
+  content: "";
+  display: block;
+  background-image: url("/images/radioButton.svg");
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 16px;
+  right: 15px;
+}
+
+.client-signup:checked + .join_as_container-label {
+  background-color: green;
+}
+
+.client-signup:checked + .join_as_container-label::before {
+  background-image: url("/images/checked-RadioButton.png");
+}
+
+.green_box {
+  width: 375px;
+  height: 74px;
+  background-color: #20B486;
+  position: relative;
+  margin-bottom: 47px;
+}
+
+.green_box_icon {
+  position: absolute;
+  left: 11px;
+  bottom: -39px;
+}
+
+.green_box_title {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #06241B;
+  margin-bottom: 14px;
+}
+
+.profile_after_login {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.green_box_subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #06241B;
+}
+
+.below_green_box {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.profile_nav_list_item {
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.profile_nav {
+  background-color: #F3F5F8;
 }/*# sourceMappingURL=main.css.map */
