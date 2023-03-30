@@ -17,15 +17,33 @@
     right: 15px;
 }
 
-.join_as_container-label {
+.client-signup:checked~.join_as_container-label-div {
+    background-color: #F0FAF7;
+
+}
+
+.join_as_container-label-div {
+    width: 341px;
+    height: 90px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.join_as_container-label,
+.join_as_container-label_second {
     margin-top: 12px;
     display: block;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.5;
     color: $darkGreen;
-
+    position: absolute;
+    top: 40px;
+    left: 14px;
+    z-index: 1;
 }
+
 
 .join_as_container {
     position: relative;
@@ -34,6 +52,8 @@
     border: 1px solid $brandColor;
     border-radius: 4px;
     margin-bottom: 36px;
+    width: 343px;
+    height: 92px;
 }
 
 
@@ -44,6 +64,18 @@
 
 .client-signup {
     display: none;
+
+}
+
+.join_as_container-label_second::before {
+    content: "";
+    display: block;
+    background-image: url("/images/radioButton.svg");
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: -43px;
+    right: -117px;
 }
 
 .join_as_container-label::before {
@@ -53,16 +85,17 @@
     width: 24px;
     height: 24px;
     position: absolute;
-    top: 16px;
-    right: 15px;
+    top: -44px;
+    right: -163px;
 
 }
 
 .client-signup:checked+.join_as_container-label {
-    background-color: green;
+    background-color: #F0FAF7;
 }
 
-.client-signup:checked+.join_as_container-label::before {
+.client-signup:checked+.join_as_container-label::before,
+.client-signup:checked+.join_as_container-label_second::before {
     background-image: url("/images/checked-RadioButton.png");
 }
 
@@ -74,3 +107,40 @@
 //     top: 0;
 //     left: 0
 // }
+
+.join_as_container-img {
+    display: block;
+    position: relative;
+    z-index: 5;
+}
+
+.login-btn1,
+.login-btn2 {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: #20B486;
+    border-radius: 4px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.login-btn1 {
+    display: none;
+    position: absolute;
+    bottom: -221px;
+    right: 0px;
+}
+
+.login-btn2 {
+    display: none;
+    position: absolute;
+    bottom: -92px;
+    right: 0px;
+}
+
+.client-signup:checked~.login-btn1,
+.client-signup:checked~.login-btn2 {
+    display: block;
+}
