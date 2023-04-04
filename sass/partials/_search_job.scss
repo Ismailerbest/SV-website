@@ -1,0 +1,48 @@
+.search {
+    padding: 13px 16px 734px 16px;
+    background-color: $bgoffwhite;
+
+}
+
+.search-list {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.search-list-item {
+    padding: 3px 15px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    display: flex;
+
+    &:not(:last-child) {
+        margin-right: 4px;
+    }
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.3;
+    color: #6F8191;
+}
+
+.form-input {
+    padding: 8px 16px 8px 36px;
+    border: 1px solid #6F8191;
+    border-radius: 4px;
+    width: 343px;
+}
+
+.form-input-div {
+    position: relative;
+
+    &:not(:last-child) {
+        margin-bottom: 11px;
+    }
+
+}
+
+.form-input-svg {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
