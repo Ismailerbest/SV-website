@@ -1,9 +1,6 @@
 .heiglights {
     background-color: #F0FAF7;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px 15px;
+    padding: 56px 99px 56px;
 }
 
 .heiglights-span {
@@ -16,6 +13,10 @@
 
 .heiglights-container {
     position: relative;
+    width: 124px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .heiglights-span {
@@ -32,5 +33,50 @@
     text-align: center;
     color: #06241B;
     margin-top: 20px;
+
+}
+
+// Desktop starts 
+@media screen and (min-width: 1440px) {
+    .heiglights-container-wrapper {
+        display: flex;
+        background-color: #f0faf7;
+        padding: 56px 99px;
+        justify-content: space-between;
+
+    }
+
+    .heiglights {
+        background-color: white;
+    }
+
+    .main {
+        background-color: #FFFFFF;
+        box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        width: 1279px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 56px;
+
+    }
+
+
+    .heiglights-container {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .heiglights-span {
+        top: 81px;
+        left: 24px;
+    }
+
+    .heiglights-text {
+        display: block;
+        margin-top: 0;
+        background-color: #f0faf7;
+        padding-bottom: 46px;
+    }
 
 }

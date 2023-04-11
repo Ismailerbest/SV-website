@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.12);
+    margin-top: 183px;
 }
 
 .about-nav-span {
@@ -14,7 +15,10 @@
     padding: 36px 16px 36px 16px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #F3F5F8;
 }
+
+
 
 .about-us-text {
     &:not(:last-child) {
@@ -26,4 +30,45 @@
     font-size: 14px;
     line-height:1.5;
     color: #6F8191;
+}
+
+// Desktop starts 
+@media screen and (min-width: 1440px) {
+
+    .about_nav {
+        display: none;
+    }
+
+    .about-us-desktop {
+        background-color: white;
+    }
+
+    .about-us-desktop-title {
+        font-weight: 700;
+        font-size: 40px;
+        color: #06241B;
+        text-align: center;
+    }
+
+    .about-us-desktop-text {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.5;
+        color: #6F8191;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .about_us {
+        padding: 24px 108px;
+        margin-top: 150px;
+        background-color: white;
+
+    }
+
+    .about-us-img {
+        display: none;
+    }
+
 }
