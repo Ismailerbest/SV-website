@@ -1,0 +1,92 @@
+footer {
+
+    background-color: $darkGreen;
+    padding: 81px 191px 81px 180px;
+}
+
+.footer {
+    display: flex;
+    border-bottom: 1px solid #20B486;
+    padding-bottom: 61px;
+
+}
+
+.footer-icon-list {
+    display: flex;
+    margin-top: 32px;
+}
+
+.footer-icon-list-item:not(:last-child) {
+    margin-right: 27px;
+}
+
+.footer-form-svg {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+
+.form {
+    position: relative;
+    width: 291px;
+    margin-top: 30px;
+
+}
+
+.form-input-footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 34px;
+}
+
+
+.footer-left-title {
+    font-weight: 500;
+    font-size: 20px;
+    color: $brandColor;
+    margin-bottom: 20px;
+
+}
+
+.footer-left-text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    width: 248px;
+}
+
+
+.footer-clients-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #F0FAF7;
+    margin-bottom: 20px;
+}
+
+.footer-clients {
+    margin-left: 100px;
+    margin-right: 108px;
+}
+
+.footer-clients-list-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #F0FAF7;
+
+}
+
+.footer-talents {
+    margin-right: 108px;
+}
+
+.footer-link {
+    display: block;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 32px;
+    color: #F0FAF7;
+}

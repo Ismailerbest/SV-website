@@ -59,3 +59,64 @@
 .hero-right-list-item-second-box {
     padding-right: 0;
 }
+
+.video-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+    .video {
+        display: none;
+    }
+
+    .video-desktop {
+        display: block;
+        padding-left: 124px;
+        padding-right: 80px;
+        padding-top: 144px;
+        padding-bottom: 144px;
+    }
+
+    .video-title {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 1.5;
+        color: #06241B;
+    }
+
+    .video-title-span {
+        color: #20B486;
+    }
+
+    .video-text {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.5;
+        color: #06241B;
+
+    }
+
+    .video-title-container {
+        display: flex;
+        align-items: center;
+        padding-right: 0px;
+        padding-bottom: 0;
+        margin-bottom: 32px;
+
+    }
+
+
+
+    .video-title-link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #FFFFFF;
+        padding: 8px 16px;
+        width: 189px;
+        background: #20B486;
+        border-radius: 8px;
+        height: 40px;
+        text-align: center;
+    }
+}

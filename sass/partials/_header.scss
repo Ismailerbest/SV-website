@@ -37,76 +37,102 @@
 }
 
 // // This is for desktop
-// .header {
-//     padding: 49px 80px 12px 80px;
-//     // display: flex; Adding display none so that we can work on mobile verstion
-//     display: none;
-//     justify-content: center;
+@media screen and (min-width: 1440px) {
+    body {
+        background-color: $bgoffwhite;
+    }
 
-// }
+    // header should width: for the whole  page;
+    // hero page, needs margin.
+    .header {
+        width: 100%;
+        padding: 49px 80px 12px 80px;
+        // display: flex; Adding display none so that we can work on mobile verstion
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 32px;
+        left: 0px;
 
-// .logo {
-//     margin-right: 579px;
-//     display: flex;
-//     align-items: center;
-//     font-weight: 600;
-//     font-size: 18px;
-//     line-height: 1.3;
-//     color: #06241B;
-// }
+    }
 
-// .logo img {
-//     margin-right: 21px;
-// }
+    .header-left,
+    .header-right,
+    .mobile-menu-div {
+        display: none;
+    }
 
-// .nav {
-//     display: flex;
-//     align-items: center;
-// }
+    .btn-login,
+    .btn-signup {
+        display: inline-block;
+    }
 
-// .nav-list {
-//     display: flex;
-//     margin-right: 24px;
-// }
+    .logo {
 
-// .nav-list-item {
-//     &:not(:last-child) {
-//         margin-right: 36px;
-//     }
+        margin-right: 579px;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.3;
+        color: #06241B;
+    }
 
-//     font-weight: 400;
-//     font-size: 14px;
-//     line-height: 1.5;
+    .logo img {
+        margin-right: 21px;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-list {
+        display: flex;
+        margin-right: 24px;
+    }
+
+    .nav-list-item {
+        &:not(:last-child) {
+            margin-right: 36px;
+        }
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
 
 
-// }
+    }
 
-// .nav-list-item-link {
-//     font-weight: 400;
-//     font-size: 14px;
-//     line-height: 1.5;
-//     color: $gray;
-// }
+    .nav-list-item-link {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        color: $gray;
+    }
 
-// .btn-login {
-//     margin-right: 8px;
-//     padding: 8px 16px;
-//     background-color: #F0FAF7;
-//     border-radius: 8px;
-//     font-weight: 500;
-//     font-size: 16px;
-//     line-height: 1.5;
-//     text-align: center;
-//     color: $darkGreen;
-// }
+    .btn-login {
+        margin-right: 8px;
+        padding: 8px 16px;
+        background-color: #F0FAF7;
+        border-radius: 8px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        color: $darkGreen;
+    }
 
-// .btn-signup {
-//     font-weight: 500;
-//     font-size: 16px;
-//     line-height: 1.5;
-//     color: #FFFFFF;
-//     padding: 8px 16px;
-//     background-color: $brandColor;
-//     border-radius: 8px;
+    .btn-signup {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #FFFFFF;
+        padding: 8px 16px;
+        background-color: $brandColor;
+        border-radius: 8px;
 
-// }
+    }
+
+
+}
